@@ -26,8 +26,6 @@ SECRET_KEY = 'django-insecure-snnr^t&ip83@53y=g5zwalcpfvmh&(jr#)hrmdy%povg=3fj8^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-CSRF_TRUSTED_ORIGINS = ['web-production-1653.up.railway.app']
-
 ALLOWED_HOSTS = ['*']
 
 
@@ -136,4 +134,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",
     "https://lucasrgsantos.github.io"
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://web-production-1653.up.railway.app'
 ]
